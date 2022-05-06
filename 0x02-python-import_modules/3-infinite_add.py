@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
+if __name__ == '__main__':
     import sys
-    total = 0
+
+    addition_of_arguments = 0
     for i in range(1, len(sys.argv)):
-        total += int(sys.argv[i])
-    print(total)
+        addition_of_arguments += int(sys.argv[i])
+    print(addition_of_arguments)
