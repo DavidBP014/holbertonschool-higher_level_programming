@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 function factorialize(num) {
     let MyRes = 1;
     for (let i = 1; i <= num; i++) {
