@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 const MyVar = process.argv[2];
 let A = '';
 if (isNaN(MyVar) === true) {
