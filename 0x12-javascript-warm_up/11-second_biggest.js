@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 function nextBiggest(arr) {
     let max = 0;
     let result = 0;
